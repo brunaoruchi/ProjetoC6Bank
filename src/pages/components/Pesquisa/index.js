@@ -15,8 +15,8 @@ function Pesquisa() {
             return;
         }
 
-        if(campoTexto.length <= 2){
-            setError('O nome da moeda tem que ser mais de 2 caracteres.');
+        if(campoTexto.length <= 3){
+            setError('O nome da moeda tem que ser mais de 3 caracteres.');
             return;
         }
         try {

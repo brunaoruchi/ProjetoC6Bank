@@ -17,6 +17,14 @@ function Cadastro() {
             setError('Digite sua senha.');
             return
         }
+        if(email <= 3){
+            setError('O email tem que ser mais de 3 caracteres.');
+            return;
+        }
+        if(password <= 3){
+            setError('A senha tem que ser mais de 3 caracteres.');
+            return;
+        }
         try {
             const token = await axios.post('https://reqres.in/api/register', {"email": email,
             "password": password});
