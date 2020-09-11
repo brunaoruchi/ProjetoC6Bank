@@ -29,6 +29,7 @@ function Cadastro() {
             const token = await axios.post('https://reqres.in/api/register', {"email": email,
             "password": password});
             alert(token.data.token);
+            setError('');
         } catch{
             setError('Cadastro inválido!');
             return
