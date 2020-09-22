@@ -6,6 +6,7 @@ function Cadastro() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const [message, setMessage] = useState('');
 
     async function onCadastroSubmit(e) {
         e.preventDefault();
@@ -28,7 +29,7 @@ function Cadastro() {
         try {
             const token = await axios.post('https://reqres.in/api/register', {"email": email,
             "password": password});
-            alert(token.data.token);
+            setMessage('Cadastro realizado com sucesso!')
             setError('');
         } catch{
             setError('Cadastro inválido!');
@@ -59,6 +60,7 @@ function Cadastro() {
                 <button type="submit">Criar</button>
             </form>
             {error&&<span className="erro-form">{error}</span>}
+            {message&&<span className="message-form">{message}</span>}
         </div>
     );
 }

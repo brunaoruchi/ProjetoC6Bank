@@ -9,6 +9,7 @@ export default function Lista() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(['']);
     const [flag, setFlag] = useState('');
+    const [message, setMessage] = useState('');
 
     async function onLoginSubmit(e) {
         e.preventDefault();
@@ -33,6 +34,7 @@ export default function Lista() {
         "password": password});
             localStorage.setItem("@C6Bank:token", res.data.token);
             setError('');
+            setMessage('Login realizado com sucesso!')
             setFlag(localStorage.getItem(`@C6Bank:token`));
         } catch{
             setError('Login/Senha inválida!');
@@ -76,7 +78,7 @@ export default function Lista() {
             <button className="botao-sair"onClick={onSair} >Sair</button>
 
             {error&&<span  className="erro-form">{error}</span>}
-            
+            {message&&<span className="message-form">{message}</span>}
             {flag && <Pesquisa />}
         </div>
     );
