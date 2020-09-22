@@ -49,7 +49,8 @@ export default function Lista() {
     function onSair(){
         localStorage.removeItem(`@C6Bank:token`)
         alert('Usuário deslogado!');
-        setFlag(null)
+        setFlag(null);
+        setMessage('');
     }
 
     return (
