@@ -27,7 +27,7 @@ function Cadastro() {
             return;
         }
         try {
-            const token = await axios.post('https://reqres.in/api/register', {"email": email,
+            await axios.post('https://reqres.in/api/register', {"email": email,
             "password": password});
             setMessage('Cadastro realizado com sucesso!')
             setError('');
