@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ProjetoC6Bank/static/css/main.36497136.chunk.css",
-    "main.js": "/ProjetoC6Bank/static/js/main.dcd59101.chunk.js",
-    "main.js.map": "/ProjetoC6Bank/static/js/main.dcd59101.chunk.js.map",
+    "main.js": "/ProjetoC6Bank/static/js/main.e2342afd.chunk.js",
+    "main.js.map": "/ProjetoC6Bank/static/js/main.e2342afd.chunk.js.map",
     "runtime-main.js": "/ProjetoC6Bank/static/js/runtime-main.8b41d248.js",
     "runtime-main.js.map": "/ProjetoC6Bank/static/js/runtime-main.8b41d248.js.map",
     "static/js/2.068f90a3.chunk.js": "/ProjetoC6Bank/static/js/2.068f90a3.chunk.js",
     "static/js/2.068f90a3.chunk.js.map": "/ProjetoC6Bank/static/js/2.068f90a3.chunk.js.map",
     "index.html": "/ProjetoC6Bank/index.html",
-    "precache-manifest.daef183c7007383c40debb4159cd07d4.js": "/ProjetoC6Bank/precache-manifest.daef183c7007383c40debb4159cd07d4.js",
+    "precache-manifest.d24e9901f8cf77e141f37b41b026184b.js": "/ProjetoC6Bank/precache-manifest.d24e9901f8cf77e141f37b41b026184b.js",
     "service-worker.js": "/ProjetoC6Bank/service-worker.js",
     "static/css/main.36497136.chunk.css.map": "/ProjetoC6Bank/static/css/main.36497136.chunk.css.map",
     "static/js/2.068f90a3.chunk.js.LICENSE.txt": "/ProjetoC6Bank/static/js/2.068f90a3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8b41d248.js",
     "static/js/2.068f90a3.chunk.js",
     "static/css/main.36497136.chunk.css",
-    "static/js/main.dcd59101.chunk.js"
+    "static/js/main.e2342afd.chunk.js"
   ]
 }
